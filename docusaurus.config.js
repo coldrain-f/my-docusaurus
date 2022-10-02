@@ -33,7 +33,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
+          sidebarPath: require.resolve("./sidebars/sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/coldrain-f/my-docusaurus/blob/master/",
@@ -51,13 +51,16 @@ const config = {
     ],
   ],
   plugins: [
+    // 프로그래밍 언어
     [
       "@docusaurus/plugin-content-docs",
       {
         id: "javascript",
         path: "language/javascript",
         routeBasePath: "language/javascript",
-        sidebarPath: require.resolve("./sidebarsJavascript.js"),
+        sidebarPath: require.resolve(
+          "./sidebars/language/sidebarsJavascript.js"
+        ),
       },
     ],
     [
@@ -66,7 +69,48 @@ const config = {
         id: "typescript",
         path: "language/typescript",
         routeBasePath: "language/typescript",
-        sidebarPath: require.resolve("./sidebarsTypescript.js"),
+        sidebarPath: require.resolve(
+          "./sidebars/language/sidebarsTypescript.js"
+        ),
+      },
+    ],
+    // CS 지식
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "network",
+        path: "cs/network",
+        routeBasePath: "cs/network",
+        sidebarPath: require.resolve("./sidebars/cs/sidebarsNetwork.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "database",
+        path: "cs/database",
+        routeBasePath: "cs/database",
+        sidebarPath: require.resolve("./sidebars/cs/sidebarsDatabase.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "dataStructure",
+        path: "cs/dataStructure",
+        routeBasePath: "cs/dataStructure",
+        sidebarPath: require.resolve("./sidebars/cs/sidebarsDataStructure.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "operatingSystem",
+        path: "cs/operatingSystem",
+        routeBasePath: "cs/operatingSystem",
+        sidebarPath: require.resolve(
+          "./sidebars/cs/sidebarsOperatingSystem.js"
+        ),
       },
     ],
   ],
@@ -80,15 +124,40 @@ const config = {
           alt: "My Site Logo",
           src: "img/logo.svg",
         },
-        // 네비게이션 항목
+        // 네비게이션 아이템
         items: [
           {
-            type: "doc",
+            type: "dropdown",
             docId: "intro",
             position: "left",
             label: "🎓 CS 지식",
+            items: [
+              {
+                type: "doc",
+                docsPluginId: "dataStructure",
+                label: "자료구조",
+                docId: "intro",
+              },
+              {
+                type: "doc",
+                docsPluginId: "operatingSystem",
+                label: "운영체제",
+                docId: "intro",
+              },
+              {
+                type: "doc",
+                docsPluginId: "database",
+                label: "데이터베이스",
+                docId: "intro",
+              },
+              {
+                type: "doc",
+                docsPluginId: "network",
+                label: "네트워크",
+                docId: "intro",
+              },
+            ],
           },
-          // 문서 멀티 인스턴스
           {
             type: "dropdown",
             position: "left",
@@ -97,13 +166,13 @@ const config = {
               {
                 type: "doc",
                 docsPluginId: "javascript",
-                label: "Javascript",
+                label: "자바스크립트",
                 docId: "intro",
               },
               {
                 type: "doc",
                 docsPluginId: "typescript",
-                label: "Typescript",
+                label: "타입스크립트",
                 docId: "intro",
               },
             ],
