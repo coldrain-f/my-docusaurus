@@ -86,29 +86,29 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Learn",
+            label: "🎓 CS 지식",
           },
           // 문서 멀티 인스턴스
           {
             type: "dropdown",
             position: "left",
-            label: "Language",
+            label: "📚 프로그래밍",
             items: [
               {
                 type: "doc",
                 docsPluginId: "javascript",
-                label: "JavaScript",
+                label: "Javascript",
                 docId: "intro",
               },
               {
                 type: "doc",
                 docsPluginId: "typescript",
-                label: "TypeScript",
+                label: "Typescript",
                 docId: "intro",
               },
             ],
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "💬 TIL(Today I Learnd)", position: "right" },
           {
             href: "https://github.com/coldrain-f",
             label: "GitHub",
