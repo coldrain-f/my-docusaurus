@@ -9,7 +9,7 @@ const config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
   url: "https://coldrain-f.github.io", // username.github.io (username은 Github username)
-  baseUrl: "/my-docusaurus/", // 포맷: '/projectName/'
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
