@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "찬비 블로그",
   tagline: "Dinosaurs are cool",
   url: "https://coldrain-f.github.io", // username.github.io (username은 Github username)
   baseUrl: "/",
@@ -36,15 +36,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/coldrain-f/my-docusaurus/blob/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/coldrain-f/my-docusaurus/blob/master/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -52,26 +50,67 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "javascript",
+        path: "language/javascript",
+        routeBasePath: "language/javascript",
+        sidebarPath: require.resolve("./sidebarsJavascript.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "typescript",
+        path: "language/typescript",
+        routeBasePath: "language/typescript",
+        sidebarPath: require.resolve("./sidebarsTypescript.js"),
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "COLDRAIN-F",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
         },
+        // 네비게이션 항목
         items: [
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Learn",
+          },
+          // 문서 멀티 인스턴스
+          {
+            type: "dropdown",
+            position: "left",
+            label: "Language",
+            items: [
+              {
+                type: "doc",
+                docsPluginId: "javascript",
+                label: "JavaScript",
+                docId: "intro",
+              },
+              {
+                type: "doc",
+                docsPluginId: "typescript",
+                label: "TypeScript",
+                docId: "intro",
+              },
+            ],
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/coldrain-f",
             label: "GitHub",
             position: "right",
           },
@@ -92,18 +131,10 @@ const config = {
           {
             title: "Community",
             items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
+              // {
+              //   label: "Stack Overflow",
+              //   href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              // },
             ],
           },
           {
@@ -115,12 +146,12 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/coldrain-f",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} COLDRAIN-F BLUG, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
