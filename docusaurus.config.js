@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "찬비 블로그",
-  tagline: "Dinosaurs are cool",
+  title: "COLDRAIN-F",
+  tagline: "천천히 흘러가도 흘러가야합니다.",
   url: "https://coldrain-f.github.io", // username.github.io (username은 Github username)
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -108,7 +108,7 @@ const config = {
               },
             ],
           },
-          { to: "/blog", label: "💬 TIL(Today I Learnd)", position: "right" },
+          { to: "/blog", label: "💬 TIL(Today I Learnd)", position: "left" },
           {
             href: "https://github.com/coldrain-f",
             label: "GitHub",
