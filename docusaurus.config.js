@@ -180,7 +180,7 @@ const config = {
           { to: "/blog", label: "💬 Today I Learned", position: "right" },
           {
             href: "https://github.com/coldrain-f",
-            label: "GitHub",
+            label: "Github",
             position: "right",
           },
         ],
