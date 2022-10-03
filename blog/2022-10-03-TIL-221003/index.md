@@ -6,7 +6,7 @@ authors:
   title: Back End Engineer @
   url: https://github.com/coldrain-f
   image_url: https://avatars.githubusercontent.com/u/81298415?v=4
-tags: [트랜잭션, TIL, Docusaurus]
+tags: [트랜잭션, Docusaurus, TIL]
 ---
 
 이틀 정도 시간 내서 블로그를 새롭게 개설했습니다.
