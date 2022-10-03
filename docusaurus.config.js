@@ -177,7 +177,7 @@ const config = {
               },
             ],
           },
-          { to: "/blog", label: "💬 Today I Learnd", position: "right" },
+          { to: "/blog", label: "💬 Today I Learned", position: "right" },
           {
             href: "https://github.com/coldrain-f",
             label: "GitHub",

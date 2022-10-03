@@ -16,7 +16,7 @@ const FeatureList = [
     ),
   },
   {
-    title: "Today I Learnd",
+    title: "Today I Learned",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
