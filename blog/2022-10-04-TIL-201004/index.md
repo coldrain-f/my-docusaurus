@@ -1,6 +1,6 @@
 ---
 slug: TIL-221004
-title: 2022-10-04(월) TIL
+title: 2022-10-04(화) TIL
 authors:
   name: coldrain-f
   title: Backend Engineer @
