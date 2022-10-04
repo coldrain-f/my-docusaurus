@@ -113,6 +113,18 @@ const config = {
         ),
       },
     ],
+    // 알고리즘
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "algorithm",
+        path: "algorithm",
+        routeBasePath: "algorithm",
+        sidebarPath: require.resolve(
+          "./sidebars/algorithm/sidebarsAlgorithm.js"
+        ),
+      },
+    ],
   ],
 
   themeConfig:
@@ -125,6 +137,11 @@ const config = {
           src: "img/logo.svg",
         },
         // 네비게이션 아이템
+        // ** 새로운 메뉴 생성법
+        // 1. 새로운 폴더를 하나 생성한다.
+        // 2. 새로운 sidebars를 하나 생성한다.
+        // 3. 새로운 @docusaurus/plugin-content-docs를 생성한다.
+        // 4. 만든 폴더에 intro.md파일을 하나 생성한다.
         items: [
           {
             type: "dropdown",
@@ -176,6 +193,13 @@ const config = {
                 docId: "intro",
               },
             ],
+          },
+          {
+            type: "doc",
+            docsPluginId: "algorithm",
+            docId: "intro",
+            position: "left",
+            label: "🤖 알고리즘",
           },
           { to: "/blog", label: "💬 Today I Learned", position: "right" },
           {
