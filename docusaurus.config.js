@@ -204,8 +204,10 @@ const config = {
           { to: "/blog", label: "💬 Today I Learned", position: "right" },
           {
             href: "https://github.com/coldrain-f",
-            label: "Github",
+            // label: "Github",
             position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
