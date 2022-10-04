@@ -10,7 +10,7 @@ const FeatureList = [
       <>
         {/* Docusaurus was designed from the ground up to be easily installed and */}
         {/* used to get your website up and running quickly. */}
-        학습한 내용을 잊지 않고 꾸준히 나아가기 위해서 배운 내용을 정리하고
+        학습한 지식을 잊지 않고 꾸준히 기억하기 위해서 배운 내용을 정리하고
         문서화하고 있습니다.
       </>
     ),
@@ -22,8 +22,8 @@ const FeatureList = [
       <>
         {/* Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
         ahead and move your docs into the <code>docs</code> directory. */}
-        성장 기록을 쌓고 되돌아보기 위해서 하루동안 학습한 내용을 일기 형식으로
-        기록하고 있습니다.
+        성장 기록을 쌓고 자신을 되돌아보기 위해서 TIL을 일기 형식으로 작성하고
+        있습니다.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        사이드 프로젝트를 진행하면서 트러블 슈팅이나 진행 과정을 기록하고
+        토이 프로젝트를 진행하면서 진행 과정이나 트러블 슈팅을 기록하고
         있습니다.
       </>
     ),
