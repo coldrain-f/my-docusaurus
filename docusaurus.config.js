@@ -147,7 +147,7 @@ const config = {
             type: "dropdown",
             docId: "intro",
             position: "left",
-            label: "🎓 CS 지식",
+            label: "CS 지식",
             items: [
               {
                 type: "doc",
@@ -178,7 +178,7 @@ const config = {
           {
             type: "dropdown",
             position: "left",
-            label: "📚 프로그래밍",
+            label: "프로그래밍",
             items: [
               {
                 type: "doc",
@@ -199,7 +199,7 @@ const config = {
             docsPluginId: "algorithm",
             docId: "intro",
             position: "left",
-            label: "🤖 알고리즘",
+            label: "알고리즘",
           },
           { to: "/blog", label: "💬 Today I Learned", position: "right" },
           {
