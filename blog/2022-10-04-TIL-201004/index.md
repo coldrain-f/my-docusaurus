@@ -3,7 +3,7 @@ slug: TIL-221004
 title: 2022-10-04(월) TIL
 authors:
   name: coldrain-f
-  title: Back End Engineer @
+  title: Backend Engineer @
   url: https://github.com/coldrain-f
   image_url: https://avatars.githubusercontent.com/u/81298415?v=4
 tags: [스택, 알고리즘, 프로그래머스, TIL]
@@ -13,7 +13,7 @@ tags: [스택, 알고리즘, 프로그래머스, TIL]
 나중에는 C언어로 스택을 직접 구현해 본다거나,
 활용 예시인 후위 표기법 연산이나 괄호 유효성 검사등에 대한 내용들도 추가해볼 생각입니다.
 
-[CS 지식 > 데이터베이스 > 트랜잭션](https://coldrain-f.netlify.app/cs/database/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98)
+[CS 지식 > 자료구조 > 스택](https://coldrain-f.netlify.app/cs/dataStructure/%EC%8A%A4%ED%83%9D)
 
 그리고 프로그래머스에서 Python으로 Lv.1 문제 4개를 풀고 정리해봤습니다.
 근데 어떻게 된 게 문제 푸는 건 몇 분 안 걸렸는데 문서로 정리하는 건 1시간이 넘게 걸렸습니다. 생각보다 쉽지 않네요.
