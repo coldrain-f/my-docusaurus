@@ -22,7 +22,7 @@ tags: [스택, 알고리즘, 프로그래머스, TIL]
 하지만 요새 알고리즘을 풀지 않은 지 좀 오래되기도 했고, 앞으로는 알고리즘 문제를 Python으로 풀 생각이라
 처음부터 다시 해봐야겠다는 마음가짐으로 풀어봤습니다.
 
-[알고리즘 > 프로그래머스 > 짝수와 홀수](http://coldrain-f.netlify.app/algorithm/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Lv.%201/%EC%A7%9D%EC%88%98%EC%99%80-%ED%99%80%EC%88%98) <br/>
-[알고리즘 > 프로그래머스 > 평균 구하기](http://coldrain-f.netlify.app/algorithm/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Lv.%201/%ED%8F%89%EA%B7%A0-%EA%B5%AC%ED%95%98%EA%B8%B0) <br/>
-[알고리즘 > 프로그래머스 > 약수의 합](http://coldrain-f.netlify.app/algorithm/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Lv.%201/%EC%95%BD%EC%88%98%EC%9D%98-%ED%95%A9) <br/>
-[알고리즘 > 프로그래머스 > 자릿수 더하기](http://coldrain-f.netlify.app/algorithm/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Lv.%201/%EC%9E%90%EB%A6%BF%EC%88%98-%EB%8D%94%ED%95%98%EA%B8%B0)
+[알고리즘 > 프로그래머스 > Lv.1 > 짝수와 홀수](http://coldrain-f.netlify.app/algorithm/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Lv.%201/%EC%A7%9D%EC%88%98%EC%99%80-%ED%99%80%EC%88%98) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 평균 구하기](http://coldrain-f.netlify.app/algorithm/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Lv.%201/%ED%8F%89%EA%B7%A0-%EA%B5%AC%ED%95%98%EA%B8%B0) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 약수의 합](http://coldrain-f.netlify.app/algorithm/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Lv.%201/%EC%95%BD%EC%88%98%EC%9D%98-%ED%95%A9) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 자릿수 더하기](http://coldrain-f.netlify.app/algorithm/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/Lv.%201/%EC%9E%90%EB%A6%BF%EC%88%98-%EB%8D%94%ED%95%98%EA%B8%B0)
