@@ -6,7 +6,7 @@ authors:
   title: Backend Engineer @
   url: https://github.com/coldrain-f
   image_url: https://avatars.githubusercontent.com/u/81298415?v=4
-tags: [운영체제, 프로세스, 프로그래머스, 알고리즘, TIL]
+tags: [운영체제, 프로세스, 알고리즘, 프로그래머스, TIL]
 ---
 
 오늘은 프로세스 개념에 대해서 학습하고 정리해 보는 시간을 가졌습니다.
