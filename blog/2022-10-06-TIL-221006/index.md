@@ -72,3 +72,10 @@ async findOne(@Param('id', ParseIntPipe) boardId: number): Promise<BoardDetailIn
 
 그리고... 다음 주 화요일에 면접 일정이 하나 잡혔기 때문에 그전까지는 면접 준비를 할 생각입니다.
 오늘의 목표 중 하나였던 문서 리뉴얼은 너무 피곤해서 하지 못했고, 프로그래머스 Lv.1 문제는 3개 정도 풀었습니다.
+
+매번 공부한 내용을 문서로 남기려면 실제 공부 시간보다 문서 작성이 훨씬 오래 걸려서,
+하루의 공부량을 잘 조절해야 할 것 같다는 생각이 들었습니다.
+
+[알고리즘 > 프로그래머스 > Lv.1 > x만큼 간격이 있는 n개의 문자](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/x만큼-간격이-있는-n개의-숫자) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 나머지가 1이 되는 수 찾기](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/나머지가-1이-되는-수-찾기) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 콜라츠 추측](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/콜라츠-추측)
