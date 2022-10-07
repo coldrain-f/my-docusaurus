@@ -31,3 +31,7 @@ CSS는 [Tailwind CSS](https://tailwindcss.com/)를 사용해서 꾸몄습니다.
 - 드래그 앤 드롭으로 위치 변경
 
 그리고 노드로 API 서버도 구축해서 데이터베이스에 데이터를 저장하고 읽어오도록 해 볼 생각입니다.
+오늘은 프로그래머스에서 두 문제를 풀어봤습니다.
+
+[알고리즘 > 프로그래머스 > Lv.1 > 문자열 다루기 기본](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/문자열-다루기-기본) <br/>
+[알고리즘 > 프로그래머스 > Lv.2 > 피보나치 수](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%202/피보나치-수)
