@@ -167,6 +167,7 @@ const config = {
           // 프로그래밍
           {
             type: "doc",
+            docsPluginId: "programming",
             position: "left",
             label: "프로그래밍",
             docId: "intro",
