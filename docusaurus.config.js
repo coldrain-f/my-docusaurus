@@ -51,29 +51,6 @@ const config = {
     ],
   ],
   plugins: [
-    // 프로그래밍 언어
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "javascript",
-        path: "language/javascript",
-        routeBasePath: "language/javascript",
-        sidebarPath: require.resolve(
-          "./sidebars/language/sidebarsJavascript.js"
-        ),
-      },
-    ],
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "typescript",
-        path: "language/typescript",
-        routeBasePath: "language/typescript",
-        sidebarPath: require.resolve(
-          "./sidebars/language/sidebarsTypescript.js"
-        ),
-      },
-    ],
     // CS 지식
     [
       "@docusaurus/plugin-content-docs",
@@ -125,6 +102,18 @@ const config = {
         ),
       },
     ],
+    // 프로그래밍
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "programming",
+        path: "programming",
+        routeBasePath: "programming",
+        sidebarPath: require.resolve(
+          "./sidebars/programming/sidebarsProgramming.js"
+        ),
+      },
+    ],
   ],
 
   themeConfig:
@@ -147,7 +136,7 @@ const config = {
             type: "dropdown",
             docId: "intro",
             position: "left",
-            label: "CS 지식",
+            label: "📚︎ CS 지식",
             items: [
               {
                 type: "doc",
@@ -175,33 +164,22 @@ const config = {
               },
             ],
           },
+          // 프로그래밍
           {
-            type: "dropdown",
+            type: "doc",
             position: "left",
-            label: "프로그래밍",
-            items: [
-              {
-                type: "doc",
-                docsPluginId: "javascript",
-                label: "자바스크립트",
-                docId: "intro",
-              },
-              {
-                type: "doc",
-                docsPluginId: "typescript",
-                label: "타입스크립트",
-                docId: "intro",
-              },
-            ],
+            label: "📄 프로그래밍",
+            docId: "intro",
           },
           {
             type: "doc",
             docsPluginId: "algorithm",
             docId: "intro",
             position: "left",
-            label: "알고리즘",
+            label: "📄 알고리즘",
           },
-          { to: "/blog", label: "💬 Today I Learned", position: "right" },
+          { to: "/blog", label: "☕ Today I Learned", position: "right" },
+          { to: "/blog/tags", label: "💬 Tags", position: "right" },
           {
             href: "https://github.com/coldrain-f",
             // label: "Github",
