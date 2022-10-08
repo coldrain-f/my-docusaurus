@@ -168,7 +168,7 @@ const config = {
           {
             type: "doc",
             position: "left",
-            label: "📄 프로그래밍",
+            label: "프로그래밍",
             docId: "intro",
           },
           {
@@ -176,7 +176,7 @@ const config = {
             docsPluginId: "algorithm",
             docId: "intro",
             position: "left",
-            label: "📄 알고리즘",
+            label: "알고리즘",
           },
           { to: "/blog", label: "☕ Today I Learned", position: "right" },
           { to: "/blog/tags", label: "💬 Tags", position: "right" },
