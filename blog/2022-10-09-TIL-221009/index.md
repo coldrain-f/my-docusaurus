@@ -9,7 +9,7 @@ authors:
 tags: [알고리즘, 프로그래머스, TIL]
 ---
 
-<!-- [알고리즘 > 프로그래머스 > Lv.2 > 피보나치 수](http://coldrain-f.netlify.app) <br/> -->
+<!-- [알고리즘 > 프로그래머스 > Lv.1 > 피보나치 수](http://coldrain-f.netlify.app) <br/> -->
 
 오늘은 어제 풀었던 프로그래머스 5문제의 풀이를 작성해서 올리고
 영어 단어를 외웠습니다.
@@ -19,8 +19,8 @@ tags: [알고리즘, 프로그래머스, TIL]
 
 그리고 취업 준비가 길어질 수도 있겠다는 생각도 들고, 모아놓은 돈도 거의 떨어져가고 있는 상황이라서 주말 알바도 한 번 알아보려고 합니다.
 
-[알고리즘 > 프로그래머스 > Lv.2 > 피보나치 수](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/없는-숫자-더하기) <br/>
-[알고리즘 > 프로그래머스 > Lv.2 > 피보나치 수](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/수박수박수박수박수) <br/>
-[알고리즘 > 프로그래머스 > Lv.2 > 피보나치 수](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/가운데-글자-가져오기) <br/>
-[알고리즘 > 프로그래머스 > Lv.2 > 피보나치 수](http://coldrain-f.netlify.ap/algorithm/프로그래머스/Lv.%201/행렬의-덧셈) <br/>
-[알고리즘 > 프로그래머스 > Lv.2 > 피보나치 수](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/직사각형-별찍기) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 없는 숫자 더하기](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/없는-숫자-더하기) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 수박수박수박수?](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/수박수박수박수박수) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 가운데 글자 가져오기](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/가운데-글자-가져오기) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 행렬의 덧셈](http://coldrain-f.netlify.ap/algorithm/프로그래머스/Lv.%201/행렬의-덧셈) <br/>
+[알고리즘 > 프로그래머스 > Lv.1 > 직사각형 별찍기](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/직사각형-별찍기) <br/>
