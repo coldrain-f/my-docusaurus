@@ -28,4 +28,5 @@ tags: [자바스크립트, 클로저, 면접, TIL]
 부족한 점이 너무 많은 것 같다고 느꼈던 하루였고 앞으로 많이 분발해야겠습니다.
 
 그리고 오늘은 자바스크립트 [중첩(Nested) 함수와 클로저(Closure)](http://coldrain-f.netlify.app/programming/Javascript/클로저)
-개념에 대해서 학습하고 간단하게 정리해봤습니다.
+개념에 대해서 학습하고 간단하게 정리해봤고, 리액트로 [컴포넌트](http://coldrain-f.netlify.app/programming/React/컴포넌트)와
+[map()](<http://coldrain-f.netlify.app/programming/React/map()-사용하기>)을 사용하여 화면을 그리는 방법을 학습했습니다.
