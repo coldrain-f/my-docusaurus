@@ -11,6 +11,8 @@ title: map() 사용하기
 :::
 <br/>
 
+## React map()
+
 ```jsx showLineNumbers
 function App() {
   // highlight-start
@@ -34,8 +36,6 @@ function App() {
 
 export default App;
 ```
-
-## React map()
 
 가장 먼저 `map()`함수를 사용하기 위한 배열을 준비합니다.
 
