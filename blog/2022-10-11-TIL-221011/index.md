@@ -6,7 +6,7 @@ authors:
   title: Backend Engineer @
   url: https://github.com/coldrain-f
   image_url: https://avatars.githubusercontent.com/u/81298415?v=4
-tags: [자바스크립트, 클로저, 면접, TIL]
+tags: [자바스크립트, 클로저, 컴포넌트, map(), 면접, TIL]
 ---
 
 <!-- [알고리즘 > 프로그래머스 > Lv.1 > 피보나치 수](http://coldrain-f.netlify.app) <br/> -->
