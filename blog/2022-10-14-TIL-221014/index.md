@@ -6,7 +6,7 @@ authors:
   title: Backend Engineer @
   url: https://github.com/coldrain-f
   image_url: https://avatars.githubusercontent.com/u/81298415?v=4
-tags: [expressJS, 인프콘 2022, TIL]
+tags: [ExpressJS, 인프콘 2022, TIL]
 ---
 
 <!-- [알고리즘 > 프로그래머스 > Lv.1 > 피보나치 수](http://coldrain-f.netlify.app) <br/> -->
