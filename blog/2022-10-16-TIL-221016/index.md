@@ -17,7 +17,7 @@ tags: [ReactJS, 컴포넌트, TIL]
 
 오늘은 상태 변경에 대해서 적용해보고 정리해봤습니다.
 그리고 콘솔 창에 계속 에러가 발생하길래 찾아보다가 리액트에서 `<label>`태그를 사용할 때,
-`for` 속성을 사용하면 에러 나서 `htmlFor`를 사용해야 한다길래 이에 대해서도 정리해봤습니다.
+`for` 속성을 사용하면 에러가 발생해서 `htmlFor`를 사용해야 한다길래 이에 대해서도 정리해봤습니다.
 
 [프로그래밍 > React > 컴포넌트 상태 변경](http://coldrain-f.netlify.app/programming/React/컴포넌트-상태변경) <br/>
 [프로그래밍 > React > label 사용하기](http://coldrain-f.netlify.app/programming/React/label-사용하기) <br/>
