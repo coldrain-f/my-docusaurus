@@ -1,0 +1,47 @@
+---
+sidebar_position: 4
+title: label 사용하기
+---
+
+### 시작하기에 앞서
+
+:::caution 주의
+해당 블로그의 모든 문서는 학습한 내용을 제 방식으로 정리하여 작성하고 있습니다. <br/>
+틀린 내용이 있을 수 있으므로 참고하고 읽어주시면 감사하겠습니다.
+:::
+<br/>
+
+## label 사용하기
+
+```jsx
+function App() {
+  return (
+    <div>
+      <label for="email">이메일</label>
+      <imput id="email" type="text" placeholder="이메일을 입력해 주세요..." />
+    </div>
+  );
+}
+
+export default App;
+```
+
+리액트에서 `<label>` 태그를 사용할 때 `for` 속성을 사용하고 관리자 도구로 콘솔을
+확인해 보면 에러가 발생합니다.
+
+반복문의 `for`문과 태그의 `for`를 구분하지 못하기 때문이라고 생각합니다.
+
+```jsx
+function App() {
+  return (
+    <div>
+      <label htmlFor="email">이메일</label>
+      <imput id="email" type="text" placeholder="이메일을 입력해 주세요..." />
+    </div>
+  );
+}
+
+export default App;
+```
+
+그런 경우 `for`를 `htmlFor`로 변경해주면 에러가 발생하지 않습니다.
