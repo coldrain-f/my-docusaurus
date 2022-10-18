@@ -40,6 +40,9 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          // 없으면 Recent posts, 5가 default
+          blogSidebarTitle: "All posts",
+          blogSidebarCount: "ALL",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/coldrain-f/my-docusaurus/blob/master/",
