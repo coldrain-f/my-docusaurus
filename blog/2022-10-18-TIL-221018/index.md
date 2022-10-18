@@ -20,4 +20,4 @@ tags: [알고리즘, 프로그래머스, 자바스크립트, 프로토타입, TI
 그래도 실력을 키우려면 동작 원리와 관련된 책 한 권쯤은 읽어봐야겠다고 생각하고 있었기 때문에, 조금씩이라도 꾸준히 읽어봐야겠습니다.
 
 [프로그래밍 > Javascript > 프로토타입](http://coldrain-f.netlify.app/programming/Javascript/프로토타입) <br/>
-[알고리즘 > 프로그래머스 > Lv.1 > 소수 찾기](http://coldrain-f.netlify.app/프로그래머스/Lv.%201/소수-찾기)
+[알고리즘 > 프로그래머스 > Lv.1 > 소수 찾기](http://coldrain-f.netlify.app/algorithm/프로그래머스/Lv.%201/소수-찾기)
