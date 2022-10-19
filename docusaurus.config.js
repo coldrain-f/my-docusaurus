@@ -27,6 +27,9 @@ const config = {
     locales: ["en"],
   },
 
+  // live-codeblock
+  themes: ["@docusaurus/theme-live-codeblock"],
+
   presets: [
     [
       "classic",
@@ -53,6 +56,7 @@ const config = {
       }),
     ],
   ],
+
   plugins: [
     // CS 지식
     [
