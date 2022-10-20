@@ -20,4 +20,5 @@ tags: [자바스크립트, 함수, TIL]
 
 함수 파트는 양이 많아서 공부하는 즉시 계속해서 업데이트해나갈 생각입니다.
 
+[프로그래밍 > Javascript > 배열(Update)](http://coldrain-f.netlify.app/programming/Javascript/배열) <br/>
 [프로그래밍 > Javascript > 함수](http://coldrain-f.netlify.app/programming/Javascript/함수) <br/>
