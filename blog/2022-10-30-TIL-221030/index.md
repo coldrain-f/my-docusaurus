@@ -6,7 +6,7 @@ authors:
   title: Backend Engineer @
   url: https://github.com/coldrain-f
   image_url: https://avatars.githubusercontent.com/u/81298415?v=4
-tags: [자바, 스프링, TIL]
+tags: [자바, 스프링, JPA, 변경 감지, TIL]
 ---
 
 <!-- [](http://coldrain-f.netlify.app) <br/> -->
