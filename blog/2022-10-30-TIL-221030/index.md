@@ -15,7 +15,7 @@ tags: [자바, 스프링, JPA, 변경 감지, TIL]
 계속 NestJS의 TypeORM만 쓰다가 오랜만에 Java/Spring의 JPA를 쓰니까 미묘하게 달라서 헷갈리는 점이 많았습니다.
 그래도 이전에 정리해놓은 자료나 진행했던 프로젝트가 GitHub에 있어서 참고하면서 진행하고 있습니다.
 
-```javascript showLineNumbers
+```java showLineNumbers
 @Transactional
 public void modify(Long wordId, WordModifyRequestDTO wordModifyRequestDTO) {
     final Word wordEntity = wordRepository.findById(wordId)
