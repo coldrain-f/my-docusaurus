@@ -27,9 +27,10 @@ const config = {
     locales: ["en"],
   },
 
-  // live-codeblock
-  themes: ["@docusaurus/theme-live-codeblock"],
-
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid", "@docusaurus/theme-live-codeblock"],
   presets: [
     [
       "classic",
