@@ -211,9 +211,13 @@ const config = {
             position: "left",
             label: "알고리즘",
           },
-          { to: "/blog", label: "☕ Today I Learned", position: "right" },
+          { to: "/blog", label: "☕ Blug", position: "right" },
           { to: "/blog/tags", label: "💬 Tags", position: "right" },
-          { to: "https://github.com/coldrain-f/my-docusaurus/issues", label: "💌 문의", position: "right" },
+          {
+            to: "https://github.com/coldrain-f/my-docusaurus/issues",
+            label: "💌 문의",
+            position: "right",
+          },
           {
             href: "https://github.com/coldrain-f",
             // label: "Github",
@@ -263,7 +267,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['powershell', 'rust', 'java'],
+        additionalLanguages: ["powershell", "rust", "java"],
       },
     }),
 };
