@@ -16,14 +16,13 @@ const FeatureList = [
     ),
   },
   {
-    title: "Today I Learned",
+    title: "Blug",
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
       <>
         {/* Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
         ahead and move your docs into the <code>docs</code> directory. */}
-        성장 기록을 쌓고 자신을 되돌아보기 위해서 TIL을 일기 형식으로 작성하고
-        있습니다.
+        성장 기록을 쌓고 자신을 되돌아보기 위해서 블로그를 작성하고 있습니다.
       </>
     ),
   },
