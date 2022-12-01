@@ -8,9 +8,10 @@ authors:
   image_url: https://avatars.githubusercontent.com/u/81298415?v=4
 tags: [자료구조, 그래프, TIL]
 ---
+
 <!-- [](http://coldrain-f.netlify.app) <br/> -->
 
-당분간은 퇴근 후 자료구조 공부를 해볼까 합니다.
+당분간은 자료구조 공부를 해볼까 합니다.
 
 그리고 오늘은 그래프(Graph)에 대해서 학습하고 정리했습니다.
 
@@ -21,6 +22,7 @@ tags: [자료구조, 그래프, TIL]
 [CS 지식 > 자료구조 > 그래프](https://coldrain-f.netlify.app/cs/dataStructure/그래프) <br />
 
 #### 다이어그램 예시
+
 ```mermaid
 sequenceDiagram
     participant Alice
