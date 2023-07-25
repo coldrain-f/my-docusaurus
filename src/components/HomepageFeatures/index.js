@@ -31,7 +31,7 @@ const FeatureList = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        토이 프로젝트를 진행하면서 진행 과정이나 트러블 슈팅을 기록하고
+        토이 프로젝트를 하면서 진행 과정이나 트러블 슈팅을 기록하고
         있습니다.
       </>
     ),
