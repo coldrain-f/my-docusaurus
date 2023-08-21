@@ -1,5 +1,5 @@
 ---
-slug: TIL-221003
+slug: BLOG-221003
 title: 첫 게시글
 authors:
   name: coldrain-f
