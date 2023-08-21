@@ -1,6 +1,6 @@
 ---
 slug: BLOG-221003
-title: 첫 게시글
+title: 블로그 첫 포스팅
 authors:
   name: coldrain-f
   title: Back End Engineer @
